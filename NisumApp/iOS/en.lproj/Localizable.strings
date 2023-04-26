@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Nisumapp
+
+  Created by sboju on 9/28/21.
+  Copyright © 2021 Nisum. All rights reserved.
+*/
+
+
+//  MARK: - Setup Name
+"setup.name.label" = "Nick Name";
+"setup.name.placeholder" = "John Doe";
+"setup.name.tip" = "Nick Name should be at least 3 characters and cannot contain special characters other than space.";
+"setup.name.failedName" = "Nick Name should be at least 3 characters and cannot contain special characters other than space.";
+"setup.name.failedProfile" = "Please make sure you have a valid internet connection and try again.";
+"setup.city.failedCity" = "Please provide city and country";
+"setup.name.save" = "Save";
+"setup.name.skip" = "Skip";
+
+//  MARK: - Setup APNS
+"setup.apns.title" = "Let’s setup your notifications.";
+"setup.apns.subtitle" = "Get notified whenever anything happens, wherever you are!";
+"setup.apns.turnon" = "Turn on notifications";
+"setup.apns.skip" = "Skip";
+        
+//  MARK: - Setup Location
+"setup.location.label" = "Location";
+"setup.city.placeholder" = "City";
+"setup.location.title" = "Let’s setup your service location.";
+"setup.location.subtitle" = "Get your service features based on your current location!";
+"setup.location.turnon" = "Turn on location";
+"setup.location.skip" = "Skip";
+
+//  MARK: - Tab
+"tab.settings.title" = "Settings";
+"tab.find.title" = "Find";
+"tab.token.refresh.title" = "Token Refresh";
+
+//  MARK: - Find Restaurant
+"find.restaurant.title" = "Find Restaurant";
+"find.restaurant.byname" = "By Name";
+"find.restaurant.bycuisine" = "By Cuisine";
+"find.restaurant.bymisc" = "By Misc";
+"find.restaurant.nearby" = "Near By Restaturants";
+"find.restaurant.known" = "Known Restaurants";
+"find.restaurant.search" = "Search for restaurant";
+
+//  MARK: - Find Restaurant Menu
+"find.restaurant.menu" = "View Menu";
+
+//  MARK: - Setup Profile
+"setup.profile.title" = "Setup Profile";
+
+//  MARK: - Cloud Authentication
+"network.authentication" = "Bearer ";
+
+//  MARK: - Restaurant API Keys
+"api.restaurant.searchBy.all" = "/api/restaurant/nearByRestaurants?";
+"api.restaurant.searchBy.name" = "/api/restaurant/listByName?";
+"api.restaurant.searchBy.cuisine" = "/api/restaurant/listByCuisine?";
+"api.restaurant.searchBy.misc" = "/api/restaurant/listByMisc?";

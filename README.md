@@ -1,1 +1,1 @@
-# GuestNHost
+The object is to build an iOS framework that can be used with any internal iOS applications or external applications as well. 

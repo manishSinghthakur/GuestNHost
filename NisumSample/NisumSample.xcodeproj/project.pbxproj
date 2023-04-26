@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFE4C0932702534200479A2C /* NisumSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4C0802702534100479A2C /* NisumSampleApp.swift */; };
+		CFE4C0942702534200479A2C /* NisumSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4C0802702534100479A2C /* NisumSampleApp.swift */; };
+		CFE4C0952702534200479A2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4C0812702534100479A2C /* ContentView.swift */; };
+		CFE4C0962702534200479A2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4C0812702534100479A2C /* ContentView.swift */; };
+		CFE4C0972702534200479A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE4C0822702534200479A2C /* Assets.xcassets */; };
+		CFE4C0982702534200479A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE4C0822702534200479A2C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFE4C0802702534100479A2C /* NisumSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NisumSampleApp.swift; sourceTree = "<group>"; };
+		CFE4C0812702534100479A2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFE4C0822702534200479A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFE4C0872702534200479A2C /* NisumSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NisumSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE4C08A2702534200479A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE4C08F2702534200479A2C /* NisumSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NisumSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE4C0912702534200479A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE4C0922702534200479A2C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE4C0842702534200479A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE4C08C2702534200479A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE4C07A2702534100479A2C = {
+			isa = PBXGroup;
+			children = (
+				CFE4C07F2702534100479A2C /* Shared */,
+				CFE4C0892702534200479A2C /* iOS */,
+				CFE4C0902702534200479A2C /* macOS */,
+				CFE4C0882702534200479A2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE4C07F2702534100479A2C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4C0802702534100479A2C /* NisumSampleApp.swift */,
+				CFE4C0812702534100479A2C /* ContentView.swift */,
+				CFE4C0822702534200479A2C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CFE4C0882702534200479A2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4C0872702534200479A2C /* NisumSample.app */,
+				CFE4C08F2702534200479A2C /* NisumSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE4C0892702534200479A2C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4C08A2702534200479A2C /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CFE4C0902702534200479A2C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4C0912702534200479A2C /* Info.plist */,
+				CFE4C0922702534200479A2C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE4C0862702534200479A2C /* NisumSample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE4C09B2702534200479A2C /* Build configuration list for PBXNativeTarget "NisumSample (iOS)" */;
+			buildPhases = (
+				CFE4C0832702534200479A2C /* Sources */,
+				CFE4C0842702534200479A2C /* Frameworks */,
+				CFE4C0852702534200479A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NisumSample (iOS)";
+			productName = "NisumSample (iOS)";
+			productReference = CFE4C0872702534200479A2C /* NisumSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFE4C08E2702534200479A2C /* NisumSample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE4C09E2702534200479A2C /* Build configuration list for PBXNativeTarget "NisumSample (macOS)" */;
+			buildPhases = (
+				CFE4C08B2702534200479A2C /* Sources */,
+				CFE4C08C2702534200479A2C /* Frameworks */,
+				CFE4C08D2702534200479A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NisumSample (macOS)";
+			productName = "NisumSample (macOS)";
+			productReference = CFE4C08F2702534200479A2C /* NisumSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE4C07B2702534100479A2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = Nisum;
+				TargetAttributes = {
+					CFE4C0862702534200479A2C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CFE4C08E2702534200479A2C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CFE4C07E2702534100479A2C /* Build configuration list for PBXProject "NisumSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE4C07A2702534100479A2C;
+			productRefGroup = CFE4C0882702534200479A2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE4C0862702534200479A2C /* NisumSample (iOS) */,
+				CFE4C08E2702534200479A2C /* NisumSample (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE4C0852702534200479A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE4C0972702534200479A2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE4C08D2702534200479A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE4C0982702534200479A2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE4C0832702534200479A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE4C0952702534200479A2C /* ContentView.swift in Sources */,
+				CFE4C0932702534200479A2C /* NisumSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE4C08B2702534200479A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE4C0962702534200479A2C /* ContentView.swift in Sources */,
+				CFE4C0942702534200479A2C /* NisumSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFE4C0992702534200479A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFE4C09A2702534200479A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CFE4C09C2702534200479A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisum.NisumSample;
+				PRODUCT_NAME = NisumSample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFE4C09D2702534200479A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisum.NisumSample;
+				PRODUCT_NAME = NisumSample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE4C09F2702534200479A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisum.NisumSample;
+				PRODUCT_NAME = NisumSample;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFE4C0A02702534200479A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisum.NisumSample;
+				PRODUCT_NAME = NisumSample;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE4C07E2702534100479A2C /* Build configuration list for PBXProject "NisumSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE4C0992702534200479A2C /* Debug */,
+				CFE4C09A2702534200479A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE4C09B2702534200479A2C /* Build configuration list for PBXNativeTarget "NisumSample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE4C09C2702534200479A2C /* Debug */,
+				CFE4C09D2702534200479A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE4C09E2702534200479A2C /* Build configuration list for PBXNativeTarget "NisumSample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE4C09F2702534200479A2C /* Debug */,
+				CFE4C0A02702534200479A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE4C07B2702534100479A2C /* Project object */;
+}
